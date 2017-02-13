@@ -123,7 +123,7 @@ trike:
 	WithMuzzleOverlay:
 	Armament@damage:
 		Weapon: HMG
-		LocalOffset: 180,0,110
+		LocalOffset: 224,0,96
 	Armament@muzzle:
 		Weapon: HMG_muzzle
 		LocalOffset: -544,0,0
@@ -160,7 +160,8 @@ quad:
 		Range: 4c768
 	Armament:
 		Weapon: Rocket
-		LocalOffset: 128,64,64, 128,-64,64
+		# Why are this "double" armaments only by quads...not trike/raider?
+		LocalOffset: 352,64,64, 352,-64,64
 	AttackFrontal:
 	AutoTarget:
 	Explodes:
@@ -200,7 +201,7 @@ siege_tank:
 		Weapon: 155mm
 		Recoil: 150
 		RecoilRecovery: 19
-		LocalOffset: 512,0,320
+		LocalOffset: 384,0,320
 		MuzzleSequence: muzzle
 	AttackFrontal:
 	WithMuzzleOverlay:
@@ -241,7 +242,7 @@ missile_tank:
 		Range: 6c768
 	Armament:
 		Weapon: mtank_pri
-		LocalOffset: -128,128,171, -128,-128,171
+		LocalOffset: 0,128,192, 0,-128,192
 	AttackFrontal:
 	AutoTarget:
 		InitialStanceAI: Defend
@@ -279,7 +280,7 @@ sonic_tank:
 		Range: 5c768
 	Armament:
 		Weapon: Sound
-		LocalOffset: 600,0,427
+		LocalOffset: 448,0,352
 	AttackFrontal:
 	AutoTarget:
 	Explodes:
@@ -317,7 +318,7 @@ devastator:
 		Range: 4c768
 	Armament:
 		Weapon: DevBullet
-		LocalOffset: 640,0,32
+		LocalOffset: 608,0,64
 		MuzzleSequence: muzzle
 	AttackFrontal:
 	WithMuzzleOverlay:
@@ -362,7 +363,7 @@ raider:
 	WithMuzzleOverlay:
 	Armament@damage:
 		Weapon: HMGo
-		LocalOffset: 170,0,0
+		LocalOffset: 256,0,64
 	Armament@muzzle:
 		Weapon: HMGo_muzzle
 		LocalOffset: 170,0,0
@@ -423,7 +424,7 @@ deviator:
 		Range: 4c768
 	Armament:
 		Weapon: DeviatorMissile
-		LocalOffset: -299,0,85
+		LocalOffset: -96,0,256
 	AttackFrontal:
 	AutoTarget:
 		InitialStanceAI: Defend
@@ -463,7 +464,7 @@ deviator:
 		Weapon: 80mm_A
 		Recoil: 128
 		RecoilRecovery: 32
-		LocalOffset: 256,0,0
+		LocalOffset: 544,0,64
 		MuzzleSequence: muzzle
 	AttackTurreted:
 	WithMuzzleOverlay:
@@ -492,6 +493,7 @@ combat_tank_h:
 		Prerequisites: ~heavy.harkonnen
 	Armament:
 		Weapon: 80mm_H
+		LocalOffset: 480,0,96
 	Mobile:
 		Speed: 64
 	Health:

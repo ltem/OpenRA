@@ -16,6 +16,7 @@ light_inf:
 		Speed: 43
 	Armament:
 		Weapon: LMG
+		LocalOffset: 288,0,192
 	AttackFrontal:
 	WithInfantryBody:
 		DefaultAttackSequence: shoot
@@ -68,7 +69,7 @@ trooper:
 		Speed: 31
 	Armament:
 		Weapon: Bazooka
-		LocalOffset: 128,0,256
+		LocalOffset: 256,0,320
 	TakeCover:
 		ProneOffset: 324,0,-204
 	AttackFrontal:
@@ -140,8 +141,10 @@ fremen:
 		InitialStanceAI: ReturnFire
 	Armament@PRIMARY:
 		Weapon: Fremen_S
+		LocalOffset: 320,0,192
 	Armament@SECONDARY:
 		Weapon: Fremen_L
+		LocalOffset: 320,0,192
 	AttackFrontal:
 	WithInfantryBody:
 		DefaultAttackSequence: shoot
@@ -209,8 +212,10 @@ sardaukar:
 		DefaultAttackSequence: shoot
 	Armament@PRIMARY:
 		Weapon: M_LMG
+		LocalOffset: 298,0,192
 	Armament@SECONDARY:
 		Weapon: M_HMG
+		LocalOffset: 298,0,192
 	AttackFrontal:
 	Voiced:
 		VoiceSet: GenericVoice
