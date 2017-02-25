@@ -17,7 +17,10 @@
 			cy: 20
 			harvester: 25
 		DamageTypes: Prone50Percent, TriggerProne, BulletDeath
-	Warhead@2Eff: CreateEffect
+	Warhead@2Smu: LeaveSmudge
+		SmudgeType: SandCrater, RockCrater
+		InvalidTargets: Vehicle, Structure
+	Warhead@3Eff: CreateEffect
 		Explosions: piffs
 
 LMG:
@@ -27,7 +30,7 @@ Fremen_S:
 	Inherits: ^MG
 	ReloadDelay: 40
 	Report: FREMODD1.WAV
-	Warhead@2Eff: CreateEffect
+	Warhead@3Eff: CreateEffect
 		Explosions: small_explosion
 
 M_LMG:
@@ -58,7 +61,7 @@ Fremen_L:
 	Report: BAZOOK2.WAV
 	Warhead@1Dam: SpreadDamage
 		DamageTypes: Prone50Percent, TriggerProne, SmallExplosionDeath
-	Warhead@2Eff: CreateEffect
+	Warhead@3Eff: CreateEffect
 		Explosions: small_explosion
 
 HMG:

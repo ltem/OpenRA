@@ -43,7 +43,7 @@ trike:
 		Start: 1635
 		Facings: -32
 	muzzle: DATA.R8
-		Start: 4092
+		Start: 3996
 		Tick: 50
 		Facings: -32
 		BlendMode: Additive

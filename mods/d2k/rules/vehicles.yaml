@@ -126,7 +126,7 @@ trike:
 		LocalOffset: 180,0,110
 	Armament@muzzle:
 		Weapon: HMG_muzzle
-		LocalOffset: -544,0,0
+		LocalOffset: 64,0,64
 		MuzzleSequence: muzzle
 	AttackFrontal:
 	AutoTarget:
